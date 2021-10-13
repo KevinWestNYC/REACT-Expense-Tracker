@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#site-title{
+  font-family: 'Raleway', sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.thead {
+  background-color: lightseagreen;
+  color: white
+}

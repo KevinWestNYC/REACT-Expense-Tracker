@@ -10,7 +10,7 @@ export default function TableRow({expenses, handleDelete}) {
               <td>{expense.location}</td>
               <td>{expense.description}</td>
               <td>{expense.amount}</td>
-              <td><button type="button" onClick={() => handleDelete(expense.id)}>Delete</button></td>
+              <td><button type="button" onClick={() => handleDelete(expense.id)}>X</button></td>
             </tr>
           ))
     )

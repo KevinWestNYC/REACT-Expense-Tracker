@@ -13,7 +13,7 @@ export default function Form({expenses, setExpenses}) {
     
         const newExpense = {
           id: nanoid(),
-          date: date,
+          date: formatDate(date),
           location: location,
           description: description,
           amount: amount
@@ -22,6 +22,15 @@ export default function Form({expenses, setExpenses}) {
         setExpenses([...expenses, newExpense])
         resetForm();
       }
+
+      const formatDate = (dateInput) => {
+        let date = new Date(dateInput);
+        const options = {
+            dateStyle: 'full',
+            timeZone: 'UTC'
+        };
+        return new Intl.DateTimeFormat('en-US', options).format(date);
+    }
     
       const resetForm = () => { 
         setDate('');
@@ -44,7 +53,7 @@ export default function Form({expenses, setExpenses}) {
        name="location"
        value={location}
        required="required"
-       placeholder="Where was the purchase made?"
+       placeholder="Location"
        onChange={(e) => setLocation(e.target.value)}
        />
        <input

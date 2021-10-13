@@ -21,11 +21,9 @@ const App = () => {
   
   return (
     <div className="container text-center">
-      <h1>Expense Tracker</h1>
-      <br></br>
-     <h3> Add an Expense</h3>
-     <Form expenses={expenses} setExpenses={setExpenses} />
-     <Table expenses={expenses} setExpenses={setExpenses} />
+      <h1 id="site-title">Expense Tracker</h1>
+      <Form expenses={expenses} setExpenses={setExpenses} />
+      <Table expenses={expenses} setExpenses={setExpenses} />
     </div>
   );
 }

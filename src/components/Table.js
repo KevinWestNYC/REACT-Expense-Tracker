@@ -22,6 +22,9 @@ export default function Table ({expenses, setExpenses}) {
         <tbody>
           <TableRow expenses={expenses} handleDelete={handleDelete} />
         </tbody>
+        <tfoot>
+
+        </tfoot>
 
       </table> 
     )
