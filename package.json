@@ -19,6 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "heroku-prebuild": "npm install && npm i --prefix client && npm run build --prefix client"
+    
   },
   "eslintConfig": {
     "extends": [
