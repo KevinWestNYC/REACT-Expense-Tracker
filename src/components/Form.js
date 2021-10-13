@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { nanoid } from 'nanoid';
 
-
 export default function Form({expenses, setExpenses}) {
     const [date, setDate] = useState('');
     const [location, setLocation] = useState('');

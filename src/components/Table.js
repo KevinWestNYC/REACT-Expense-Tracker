@@ -9,7 +9,7 @@ export default function Table ({expenses, setExpenses}) {
       };
 
     return(
-        <table className="table table-bordered table-hover">
+      <table className="table table-bordered table-hover">
         <thead className="thead">
             <tr>
                 <th>Date</th>
@@ -22,10 +22,6 @@ export default function Table ({expenses, setExpenses}) {
         <tbody>
           <TableRow expenses={expenses} handleDelete={handleDelete} />
         </tbody>
-        <tfoot>
-
-        </tfoot>
-
       </table> 
     )
 }
