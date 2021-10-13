@@ -4,7 +4,7 @@
 
 ### Use my expense tracker [Here](https://kw-react-expense-tracker.herokuapp.com/)
 
-![Expense Tracker](https://imgur.com/a/Js4hKRO)
+![Expense Tracker](https://i.imgur.com/aVA4aTX.jpg)
 
 ## Summary:
 ### This was my first time creating an app using React.  It was a fun challenge to use my html/css/javascript knowledge in order to create a simple application with a new language.
